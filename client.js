@@ -2,8 +2,8 @@
 //var System = importNamespace('System');
 
 // êîíñòàíòû
-var WaitingPlayersTime = 10;
-var BuildBaseTime = 30;
+var WaitingPlayersTime = 5;
+var BuildBaseTime = 120;
 var GameModeTime = 600;
 var EndOfMatchTime = 10;
 
@@ -27,7 +27,7 @@ BreackGraph.WeakBlocks = GameMode.Parameters.GetBool("LoosenBlocks");
 BreackGraph.PlayerBlockBoost = true;
 
 // ïàðàìåòðû èãðû
-Properties.GetContext().GameModeName.Value = "GameModes/Team Dead Match";
+Properties.GetContext().GameModeName.Value = "Ya ebal sozdavat reszhimi";
 TeamsBalancer.IsAutoBalance = true;
 Ui.GetContext().MainTimerId.Value = mainTimer.Id;
 // ñîçäàåì êîìàíäû
